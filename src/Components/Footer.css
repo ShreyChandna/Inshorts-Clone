@@ -1,0 +1,80 @@
+.footer {
+    background-color: #000000e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 12rem;
+  }
+  .name {
+  
+    height: 72%;
+    display :grid;
+    padding: 8px 20px 19px;
+    color: white;
+    position: relative;
+
+    top: 1rem;
+    right: 16rem;
+    border-right: 1px solid;
+}
+  
+  a {
+    color: white;
+  }
+  
+  .iconContainer {
+    width: 60%;
+    height: 50px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .icon2{
+    width: 10rem;
+  }
+  .text{
+         
+    position: relative;
+    left: 3rem;
+    top: 1rem;
+    font-size: 0.7rem;
+}
+  .name-2{
+    position: relative;
+    right: 4rem;
+    display: grid;
+    bottom: 6.6rem;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 31rem;
+    font-size: 26px;
+}
+  
+@media(max-width:1027px)
+{
+  .social{
+    position: relative;
+    left: 19rem;
+  }
+}
+
+@media (max-width: 768px)
+{
+.social {
+    left: -5.8rem;
+    margin-top: 0.8rem;
+    border-top:1px solid;
+}
+.name{
+  right: 7rem;
+  margin-top: -6px;
+}
+.name-2 {
+  left: 5rem;
+}
+}

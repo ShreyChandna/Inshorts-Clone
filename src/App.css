@@ -1,0 +1,19 @@
+.nav{
+  height: 70px;
+  box-shadow: 0 0 8px gray;
+  display: flex;
+  align-items: center;
+}
+.icon{
+  cursor: pointer;
+  height: 80%;
+}
+.logo{
+  flex: 0.50;
+}
+.spinner {
+  position: absolute;
+  right: 50%;
+  height: 4rem;
+  top: 50%;
+}
